@@ -232,7 +232,6 @@ legend {
   display: table;
   max-width: 100%;
   padding: 0;
-  /* 3 */
   white-space: normal;
 }
 
@@ -519,7 +518,6 @@ body {
 .header__logo img {
   max-width: 100%;
   display: block;
-  /* уберает не понтный отступ*/
 }
 
 .header__body {
@@ -689,11 +687,11 @@ body {
           transform: translate(-50%, -50%);
 }
 
-.first {
+.about {
   padding: 120px 0 70px;
 }
 
-.first__inner {
+.about__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -701,12 +699,12 @@ body {
       justify-content: space-around;
 }
 
-.first__content {
+.about__content {
   padding: 10px;
   width: 450px;
 }
 
-.first__content-titie {
+.about__content-titie {
   color: #333333;
   margin-bottom: 50px;
   font-family: "SourceSansPro-Light", sans-serif;
@@ -724,21 +722,21 @@ body {
   transition: all 0.9s ease 0s;
 }
 
-.first__content-titie.anim-active {
+.about__content-titie.anim-active {
   -webkit-transform: translate(0%, 0%);
       -ms-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   opacity: 1;
 }
 
-.first__content-text {
+.about__content-text {
   margin-bottom: 35px;
   font-size: 14px;
   line-height: 1.786;
   color: #b3b3b3;
 }
 
-.first__content-btn {
+.about__content-btn {
   -webkit-transform: translate(-120%, 0%);
       -ms-transform: translate(-120%, 0%);
           transform: translate(-120%, 0%);
@@ -748,20 +746,20 @@ body {
   transition: all 0.9s ease 0s;
 }
 
-.first__content-btn.anim-active {
+.about__content-btn.anim-active {
   -webkit-transform: translate(0%, 0%);
       -ms-transform: translate(0%, 0%);
           transform: translate(0%, 0%);
   opacity: 1;
 }
 
-.first__content-img.anim-active .first__img {
+.about__content-img.anim-active .about__img {
   -webkit-transform: scale(1);
       -ms-transform: scale(1);
           transform: scale(1);
 }
 
-.first__img {
+.about__img {
   -webkit-transform: scale(0);
       -ms-transform: scale(0);
           transform: scale(0);
@@ -770,7 +768,7 @@ body {
   transition: all 1s ease 0s;
 }
 
-.first__img img {
+.about__img img {
   width: 290px;
 }
 
@@ -2294,7 +2292,7 @@ body {
     position: relative;
     width: 30px;
     height: 18px;
-    z-index: 3;
+    z-index: 4;
   }
 
   .header__burger span {
@@ -2372,7 +2370,7 @@ body {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     overflow: auto;
-    z-index: 2;
+    z-index: 3;
   }
 
   .header__menu.active {
@@ -2436,12 +2434,12 @@ body {
 }
 
 @media (max-width: 735px) {
-  .first__inner {
+  .about__inner {
     display: block;
     text-align: center;
   }
 
-  .first__content {
+  .about__content {
     padding: 10px;
     width: 100%;
     margin-bottom: 35px;
